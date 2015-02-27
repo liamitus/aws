@@ -1,0 +1,4 @@
+PERMISSIONS_FILE_LOCATION=example_permissions_file.pem
+ADDRESS=123.45.67.89
+GITHUB_USER=example_user
+GITHUB_REPO=example_repo
