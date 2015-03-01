@@ -11,5 +11,5 @@ run () {
 
 run "sudo yum update -y"
 run "sudo yum install git -y; curl \"https://raw.githubusercontent.com/liamitus/aws/master/deploy_from_github.sh\" | sudo sh -s $GITHUB_USER $GITHUB_REPO"
-run "sudo cp -r $GITHUB_REPO/* $SITE_DIR/; sudo rm -rf -- $SITE_DIR"
+run "sudo cp -r $GITHUB_REPO/* $SITE_DIR/; sudo rm -rf -- $SITE_DIR/*"
 run "sudo service httpd restart"
