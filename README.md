@@ -1,6 +1,8 @@
-# aws
-Scripts for setting up EC2 servers
+# AWS scripts
+## Scripts for setting up EC2 servers.
 
-Run the scripts on a fresh instance by doing something like this:
+Rename `defaults.properties.sample` to `defaults.properties`. This is where your config goes. (It should probably be renamed, also it would be nice to be able to pass these in as flags too)
 
-    curl "https://raw.githubusercontent.com/liamitus/aws/master/setup_apache.sh" | sudo sh
+Run with the deploy.sh script.
+    
+    bash deploy.sh
